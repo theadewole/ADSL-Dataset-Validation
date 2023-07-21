@@ -54,10 +54,8 @@
 |35|BMI| BMI at BL (kg/m^2) |Num| 8 |BMI=(WEIGHT*703)/(HEIGHT**2) |
 
 ## Output
-    •Datasets: LB.sas7bdat 
-      •Datasets: QC_adsl.sas7bdat 
-        •Programs: QC_adsl.sas 
-          •Log: QC_adsl.log 
-            •Listing: QC_adsl.ls
+- [Datasets](https://github.com/theadewole/ADSL-Dataset-Validation/blob/main/qc_adsl.sas7bdat)
+- [Programs](https://github.com/theadewole/ADSL-Dataset-Validation/blob/main/QC_ADSL%20(1).sas)
+- [Log](https://github.com/theadewole/ADSL-Dataset-Validation/blob/main/QC_adsl_Log.Log)
+- [Validate](https://github.com/theadewole/ADSL-Dataset-Validation/blob/main/QC_adsl.RTF)
 
-[Spreadsheet File of the Final Dataset](https://docs.google.com/spreadsheets/d/1ruB-mbZYnjm60qy-rXbb-9KeiKL9lmns/edit?usp=sharing&ouid=117399581833546938372&rtpof=true&sd=true) 
