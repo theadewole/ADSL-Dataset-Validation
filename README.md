@@ -26,7 +26,7 @@ ADSL  is a domain in ADaM (Analysis Data Model) with a structure of one record p
 
 
 ## Tasks
-	As explained in the Requirement Specification (RSD)
+	As explained in the Requirement Specification (RSD) 🔽
 
 |SN|Variable Name 	|Variable Label |Data Type|Length/Format 	|Algorithm|
 |---|---------------|---------------|---------|---------------|---------|
