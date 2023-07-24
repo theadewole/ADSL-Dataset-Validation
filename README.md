@@ -1,8 +1,7 @@
 # ADSL Dataset Validation
-- Program Developer : Adewole Ogunade
-- 07/06/2023
-- Project Title: ADSL-Dataset-Validation
-- Description: Validation of ADSL dataset by writing independent SAS code.
+- Project Title: 	ADSL-Dataset-Validation
+- Description: 		Validation of ADSL dataset by writing independent SAS code.
+- SAS Version:		STUDIO 
 ## Introduction 
 The project involves validating an already developed ADSL (Analysis data subject level) dataset using the input datasets of ; 
 - DM.SAS7bdat (Demographics SDTM dataset)
@@ -14,20 +13,20 @@ ADSL  is a domain in ADaM (Analysis Data Model) with a structure of one record p
 
 ## Logical Follow.
 - Establishing a library to house all four datasets. 
-- Specifying variables from individual datasets according to the RSD. 
+- Specifying variables from individual datasets according to the RSD (Requirement specification document). 
 - Merging of the four datasets with USUBJID (unique subject ID)  and further specification of the other variable that requires variable from more than one dataset.
 - After completion, the final dataset was sorted with the USUBJID (unique subject ID) 
 - The final dataset was then compared with an already-developed ADSL.SAS7bdat.
 ## Inputs
-    •DM.SAS7bdat (Demographics SDTM dataset)
-      •EX.SAS7bdat (Exposure SDTM dataset)
-        •DS.SAS7bdat (Disposition SDTM dataset)
-          •VS.SAS7bdat (Vital signs SDTM dataset)
-            •ADSL.SAS7bdat (Analysis data subject level)
+    •DM.SAS7bdat
+      •EX.SAS7bdat
+        •DS.SAS7bdat
+          •VS.SAS7bdat
+            •ADSL.SAS7bdat
 
 
 ## Tasks
-	Explained in the Requirement Specification (RSD)
+	As explained in the Requirement Specification (RSD)
 
 |SN|Variable Name 	|Variable Label |Data Type|Length/Format 	|Algorithm|
 |---|---------------|---------------|---------|---------------|---------|
