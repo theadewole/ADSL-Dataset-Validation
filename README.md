@@ -1,7 +1,7 @@
 # ADSL Dataset Validation
 - Project Title: 	ADSL-Dataset-Validation
 - Description: 		Validation of ADSL dataset by writing independent SAS code.
-- SAS Version:		STUDIO 
+- SAS Version:		SAS onDemand for Academics
 ## Introduction 
 The project involves validating an already developed ADSL (Analysis data subject level) dataset using the input datasets of ; 
 - DM.SAS7bdat (Demographics SDTM dataset)
