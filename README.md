@@ -8,6 +8,7 @@ The project involves validating an already developed ADSL (Analysis data subject
 - EX.SAS7bdat (Exposure SDTM dataset)
 - DS.SAS7bdat (Disposition SDTM dataset)
 - VS.SAS7bdat (Vital signs SDTM dataset)
+- VS.sas7bdat (Subject Visit SDTM dataset)
 
 ADSL  is a domain in ADaM (Analysis Data Model) with a structure of one record per subject.
 
@@ -22,7 +23,9 @@ ADSL  is a domain in ADaM (Analysis Data Model) with a structure of one record p
       •EX.SAS7bdat
         •DS.SAS7bdat
           •VS.SAS7bdat
-            •ADSL.SAS7bdat
+            •SV.SAS7bdat
+	     •ADSL.SAS7bdat
+	     
 
 
 ## Tasks
