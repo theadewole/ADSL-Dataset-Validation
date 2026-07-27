@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_macro_sortds",
+  "source_file": "QC_ADSL (1).sas",
+  "source_blob_sha": "514415ce1b83fc536903a2bf66621cab70cc6670",
+  "source_commit": "c9603b2b3ee743838bc74285f7ded5339950aebf",
+  "notes": "The author's %sortds(ds,dsout) macro — a reusable PROC SORT BY USUBJID wrapper used five times in QC_ADSL to sort the per-domain tables before the final merge. Bundle carries the macro definition verbatim plus a small caller over a 6-row out-of-order mock DM_ADSL2; PROC PRINT confirms the USUBJID sort."
+}

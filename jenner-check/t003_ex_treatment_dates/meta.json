@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_ex_treatment_dates",
+  "source_file": "QC_ADSL (1).sas",
+  "source_blob_sha": "514415ce1b83fc536903a2bf66621cab70cc6670",
+  "source_commit": "c9603b2b3ee743838bc74285f7ded5339950aebf",
+  "notes": "EX ADSL derivation: TRTSDT/TRTEDT via the ??yymmdd10. ISO-date informat with MIN/MAX, TRT01SDT/TRT01EDT, ACTARM/TRT01A from EXTRT, and ACTARMCD arm-code mapping. External LIBNAME Rawdata.EX replaced with a 5-row mock EX (datalines); derivation unchanged. PROC PRINT surfaces the date9. values and arm codes."
+}

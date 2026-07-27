@@ -1,0 +1,12 @@
+{
+  "_captured_at": "2026-07-27T18:57:40Z",
+  "_captured_run_id": "r_3e97bc40c0e142638c85d95e40465bf2",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote DM_ADSL (10 rows, 15 columns).",
+    "NOTE: PROC PRINT completed: 10 observations printed, 5 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

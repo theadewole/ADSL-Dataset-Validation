@@ -1,0 +1,24 @@
+                                             ADaM Dataset Validation (ADSL)
+
+The COMPARE Procedure
+Comparison of WORK.BASE_ADSL with WORK.QC_ADSL
+Data Set Summary
+Dataset          Created    Observations    Variables
+WORK.BASE_ADSL                         4            6
+WORK.QC_ADSL                           4            6
+Variables Summary
+Number of Variables in Common: 6
+Observation Summary
+Observation       Base    Compare
+First Obs            1          1
+Last Obs             4          4
+Number of Observations in Common: 4
+Number of Observations with Some Compared Variables Unequal: 2
+Values Comparison Summary
+Number of Variables Compared with All Observations Equal: 4
+Number of Variables Compared with Some Observations Unequal: 2
+Variable    Type    N Obs    N Dif    MaxDiff
+AGE         NUM         4        1       1.00
+BMI         NUM         4        1       0.20
+
+Validation of ADSL dataset

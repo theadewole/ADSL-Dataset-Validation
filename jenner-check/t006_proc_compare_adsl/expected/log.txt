@@ -1,0 +1,61 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA base_adsl
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 4 rows from DATALINES.
+NOTE: Wrote base_adsl (4 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA qc_adsl
+
+NOTE: Processing inline DATALINES (4 lines)
+
+NOTE: Read 4 rows from DATALINES.
+NOTE: Wrote qc_adsl (4 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to ADaM Dataset Validation (ADSL).
+NOTE: Option FOOTNOTE changed to Validation of ADSL dataset.
+NOTE: PROC COMPARE base=base_adsl compare=qc_adsl
+
+NOTE: PROC COMPARE Summary:
+NOTE:   Base observations:    4
+NOTE:   Compare observations: 4
+NOTE:   Matched observations: 4
+NOTE:     - Equal:            2
+NOTE:     - Unequal:          2
+NOTE:   Base only:            0
+NOTE:   Compare only:         0
+NOTE:   Variables compared:   6
+NOTE:   Variables with differences:
+NOTE:     AGE: 1 differences
+NOTE:     BMI: 1 differences
+NOTE: 
+NOTE:   All Comparisons (LISTALL):
+NOTE:     Obs 1 | USUBJID: base=CYT001-USA-001 compare=CYT001-USA-001 [EQUAL]
+NOTE:     Obs 1 | ARM: base=PLACEBO compare=PLACEBO [EQUAL]
+NOTE:     Obs 1 | REGION: base=NORTH_AMERICA compare=NORTH_AMERICA [EQUAL]
+NOTE:     Obs 1 | SEXN: base=1 compare=1 [EQUAL]
+NOTE:     Obs 1 | AGE: base=54 compare=54 [EQUAL]
+NOTE:     Obs 1 | BMI: base=26 compare=26 [EQUAL]
+NOTE:     Obs 2 | USUBJID: base=CYT001-CAN-002 compare=CYT001-CAN-002 [EQUAL]
+NOTE:     Obs 2 | ARM: base=CYT001_3MG compare=CYT001_3MG [EQUAL]
+NOTE:     Obs 2 | REGION: base=NORTH_AMERICA compare=NORTH_AMERICA [EQUAL]
+NOTE:     Obs 2 | SEXN: base=2 compare=2 [EQUAL]
+NOTE:     Obs 2 | AGE: base=61 compare=61 [EQUAL]
+NOTE:     Obs 2 | BMI: base=25 compare=25 [EQUAL]
+NOTE:     Obs 3 | USUBJID: base=CYT001-GBR-003 compare=CYT001-GBR-003 [EQUAL]
+NOTE:     Obs 3 | ARM: base=CYT001_10MG compare=CYT001_10MG [EQUAL]
+NOTE:     Obs 3 | REGION: base=NORTHERN_EUROPE compare=NORTHERN_EUROPE [EQUAL]
+NOTE:     Obs 3 | SEXN: base=1 compare=1 [EQUAL]
+NOTE:     Obs 3 | AGE: base=47 compare=47 [EQUAL]
+NOTE:     Obs 3 | BMI: base=27.2 compare=27.4 [DIFF] (diff=0.200000)
+NOTE:     Obs 4 | USUBJID: base=CYT001-DEU-004 compare=CYT001-DEU-004 [EQUAL]
+NOTE:     Obs 4 | ARM: base=PLACEBO compare=PLACEBO [EQUAL]
+NOTE:     Obs 4 | REGION: base=CENTRAL_EUROPE compare=CENTRAL_EUROPE [EQUAL]
+NOTE:     Obs 4 | SEXN: base=2 compare=2 [EQUAL]
+NOTE:     Obs 4 | AGE: base=39 compare=40 [DIFF] (diff=1.000000)
+NOTE:     Obs 4 | BMI: base=25.9 compare=25.9 [EQUAL]

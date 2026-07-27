@@ -1,0 +1,18 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA DM_ADSL2
+
+NOTE: Processing inline DATALINES (6 lines)
+
+NOTE: Read 6 rows from DATALINES.
+NOTE: Wrote DM_ADSL2 (6 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=DM_ADSL2
+
+NOTE: Read 6 rows from DM_ADSL2.
+NOTE: Wrote DM1 (6 rows, 4 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=DM1
+
+NOTE: PROC PRINT completed: 6 observations printed, 4 variables

@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_dm_region_derivation",
+  "source_file": "QC_ADSL (1).sas",
+  "source_blob_sha": "514415ce1b83fc536903a2bf66621cab70cc6670",
+  "source_commit": "c9603b2b3ee743838bc74285f7ded5339950aebf",
+  "notes": "DM ADSL derivation DATA step (SEXN, USUBJID/ARM length reassignment via INPUT, REGION country IF/ELSE-IF mapping). External LIBNAME Rawdata.DM replaced with a 10-row inline mock DM (datalines) matching the SDTM column shape; derivation logic unchanged. Self-contained so script.sas runs on its own (used as the /v1/quick example). PROC FREQ/PRINT surface the derived REGION and SEXN."
+}

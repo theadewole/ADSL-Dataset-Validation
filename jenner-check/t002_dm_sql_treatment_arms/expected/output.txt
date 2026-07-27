@@ -1,0 +1,9 @@
+                                   ADSL planned-treatment derivation (PROC SQL CASE)
+
+  Obs         usubjid           arm                                              TRT01P  TRT01PN  TRT01AN
+    1  CYT001-USA-001  PLACEBO       PLACEBO                                                   1        1
+    2  CYT001-CAN-002  CYT001 3 MG   CYT001 3 MG                                               3        3
+    3  CYT001-GBR-003  CYT001 10 MG  CYT001 10 MG                                              2        2
+    4  CYT001-DEU-004  PLACEBO       PLACEBO                                                   1        1
+    5  CYT001-CHN-005  CYT001 10 MG  CYT001 10 MG                                              2        2
+    6  CYT001-ARG-006  CYT001 3 MG   CYT001 3 MG                                               3        3

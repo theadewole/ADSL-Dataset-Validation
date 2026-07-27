@@ -1,0 +1,9 @@
+                                  sortds macro — DM_ADSL2 sorted BY USUBJID into DM1
+
+  Obs         USUBJID          ARM  AGE  SEXN
+    1  CYT001-ARG-006  CYT001_3MG    66     2
+    2  CYT001-CAN-002  CYT001_3MG    61     2
+    3  CYT001-CHN-005  CYT001_10MG   58     1
+    4  CYT001-DEU-004  PLACEBO       39     2
+    5  CYT001-GBR-003  CYT001_10MG   47     1
+    6  CYT001-USA-001  PLACEBO       54     1
