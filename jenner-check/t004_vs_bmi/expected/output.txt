@@ -1,0 +1,7 @@
+                                 ADSL VS derivation — baseline weight, height and BMI
+
+  Obs         USUBJID      WGTB      HGTB           BMI
+    1  CYT001-CAN-002        68       165  1.7558861341
+    2  CYT001-DEU-004      74.8       170  1.8195294118
+    3  CYT001-GBR-003      91.2       183  1.9144674371
+    4  CYT001-USA-001      82.5       178  1.8304980432

@@ -1,0 +1,12 @@
+{
+  "_captured_at": "2026-07-27T19:00:31Z",
+  "_captured_run_id": "r_bb905fd564d94553999adb19911b6441",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote VS_ADSL2 (4 rows, 7 columns).",
+    "NOTE: PROC PRINT completed: 4 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_vs_bmi",
+  "source_file": "QC_ADSL (1).sas",
+  "source_blob_sha": "514415ce1b83fc536903a2bf66621cab70cc6670",
+  "source_commit": "c9603b2b3ee743838bc74285f7ded5339950aebf",
+  "notes": "VS ADSL derivation: baseline WGTB/HGTB extraction (VSTESTCD/VSBLFL), split into wg/ht, MERGE BY USUBJID, then BMI=(WGTB*703)/(HGTB**2). External LIBNAME Rawdata.VS replaced with an 8-row mock VS (datalines, WEIGHT+HEIGHT per subject). Added one PROC SORT BY USUBJID to establish the sorted-input precondition the author's BY steps assume (their onDemand VS arrived sorted); derivation logic unchanged."
+}

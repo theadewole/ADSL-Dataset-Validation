@@ -1,0 +1,8 @@
+                               ADSL EX derivation — actual arm codes and exposure dates
+
+  Obs         USUBJID                                              ACTARM              ACTARMCD     TRTSDT     TRTEDT   TRT01SDT   TRT01EDT
+    1  CYT001-USA-001  PLACEBO                                             PLAC                  02JAN2014  30JUN2014  02JAN2014  30JUN2014
+    2  CYT001-CAN-002  CYT001 3 MG                                         CYT0013               11FEB2014  01AUG2014  11FEB2014  01AUG2014
+    3  CYT001-GBR-003  CYT001 10 MG                                        CYT00110              05MAR2014  10SEP2014  05MAR2014  10SEP2014
+    4  CYT001-DEU-004  PLACEBO                                             PLAC                  20JAN2014  15JUL2014  20JAN2014  15JUL2014
+    5  CYT001-CHN-005  CYT001 10 MG                                        CYT00110              01APR2014  01OCT2014  01APR2014  01OCT2014

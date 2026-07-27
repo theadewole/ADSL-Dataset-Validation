@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_dm_sql_treatment_arms",
+  "source_file": "QC_ADSL (1).sas",
+  "source_blob_sha": "514415ce1b83fc536903a2bf66621cab70cc6670",
+  "source_commit": "c9603b2b3ee743838bc74285f7ded5339950aebf",
+  "notes": "PROC SQL derivation of planned treatment: PUT(ARM,$char50.) AS TRT01P and the CASE-WHEN mapping of ARM to TRT01PN/TRT01AN. Reads a 6-row mock DM_ADSL (datalines) whose ARM values match the CASE literals; SQL unchanged. PROC PRINT surfaces the derived codes."
+}

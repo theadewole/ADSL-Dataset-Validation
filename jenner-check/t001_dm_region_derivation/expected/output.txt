@@ -1,0 +1,27 @@
+                                       ADSL DM derivation — REGION distribution
+
+                                                   The FREQ Procedure
+
+REGION             Frequency    Percent
+----------------------------------------
+ASIA                       2     20.00
+CENTRAL EUROPE             1     10.00
+EASTERN EUROPE             1     10.00
+LATIN AMERICA              1     10.00
+NORTH AMERICA              2     20.00
+NORTHERN EUROPE            1     10.00
+SOUTHERN AFRICA            1     10.00
+WESTERN EUROPE             1     10.00
+                                   ADSL DM derivation — subject-level REGION / SEXN
+
+  Obs         USUBJID  SEX      SEXN  COUNTRY           REGION
+    1  CYT001-USA-001  M           1  USA      NORTH AMERICA
+    2  CYT001-CAN-002  F           2  CAN      NORTH AMERICA
+    3  CYT001-GBR-003  M           1  GBR      NORTHERN EUROPE
+    4  CYT001-DEU-004  F           2  DEU      CENTRAL EUROPE
+    5  CYT001-CHN-005  M           1  CHN      ASIA
+    6  CYT001-ARG-006  F           2  ARG      LATIN AMERICA
+    7  CYT001-ZAF-007  M           1  ZAF      SOUTHERN AFRICA
+    8  CYT001-RUS-008  F           2  RUS      EASTERN EUROPE
+    9  CYT001-AUS-009  M           1  AUS      ASIA
+   10  CYT001-ESP-010  F           2  ESP      WESTERN EUROPE

@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_proc_compare_adsl",
+  "source_file": "QC_ADSL (1).sas",
+  "source_blob_sha": "514415ce1b83fc536903a2bf66621cab70cc6670",
+  "source_commit": "c9603b2b3ee743838bc74285f7ded5339950aebf",
+  "notes": "The repo's validation step: PROC COMPARE BASE=... COMP=... LISTALL of an independently derived ADSL against the reference ADSL, with the author's TITLE/FOOTNOTE. BASE/COMP redirected to two small bundled ADSL tables that differ in two cells (AGE, BMI) so the comparison reports; ODS RTF/PRINTTO removed so the listing prints. This is the exact validation technique the repo is built around."
+}
